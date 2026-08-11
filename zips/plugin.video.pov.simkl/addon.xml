@@ -1,4 +1,4 @@
-<addon id="plugin.video.pov.simkl" version="1.0.0" name="POV SIMKL" provider-name="kodifitzwell (SIMKL fork by razaqad)">
+<addon id="plugin.video.pov.simkl" version="1.0.1" name="POV SIMKL" provider-name="kodifitzwell (SIMKL fork by razaqad)">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
