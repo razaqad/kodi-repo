@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons><addon id="plugin.video.pov.simkl" version="1.0.2" name="POV SIMKL" provider-name="kodifitzwell (SIMKL fork by razaqad)">
+<addons><addon id="plugin.video.pov.simkl" version="1.0.3" name="POV SIMKL" provider-name="kodifitzwell (SIMKL fork by razaqad)">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -134,7 +134,7 @@
         <description lang="en_NZ">FENtastic Helper for the FENtastic Skin.</description>
         <description lang="en_US">FENtastic Helper for the FENtastic Skin.</description>
     </extension>
-</addon><addon id="skin.fentastic" version="1.0.25+simkl.1" name="FENtastic" provider-name="Ivar Brandt">
+</addon><addon id="skin.fentastic" version="1.0.25+simkl.2" name="FENtastic" provider-name="Ivar Brandt">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.fentastic.helper" />
