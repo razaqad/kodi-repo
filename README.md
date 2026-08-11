@@ -5,23 +5,27 @@ Personal Kodi repository hosting **POV SIMKL** — a fork of POV that uses
 
 ## Install
 
-1. Kodi → Settings → File manager → **Add source**
+1. Kodi → Settings → File manager → **Add source**, enter exactly:
    ```
-   https://raw.githubusercontent.com/razaqad/kodi-repo/main/
+   https://razaqad.github.io/kodi-repo/
    ```
    Name it `povsimkl`.
-2. Settings → Add-ons → **Install from zip file** → `povsimkl` →
-   `zips/repository.povsimkl/repository.povsimkl-1.0.0.zip`
+2. Settings → Add-ons → **Install from zip file** → `povsimkl` → `zips` →
+   `repository.povsimkl` → `repository.povsimkl-1.0.1.zip`
 3. **Install from repository** → POV SIMKL Repository → Video add-ons → **POV SIMKL**
 
 Updates then arrive through the repository.
+
+> Use the GitHub Pages URL above, **not** `raw.githubusercontent.com`. Raw serves
+> individual files but never directory listings, so Kodi cannot browse it and
+> adding it as a source fails.
 
 ## Contents
 
 | Add-on | Version |
 |---|---|
 | `plugin.video.pov.simkl` | 1.0.0 |
-| `repository.povsimkl` | 1.0.0 |
+| `repository.povsimkl` | 1.0.1 |
 
 ## Credits
 
