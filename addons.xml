@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons><addon id="plugin.video.pov.simkl" version="1.0.0" name="POV SIMKL" provider-name="kodifitzwell (SIMKL fork by razaqad)">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="resources/lib/router.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="resources/lib/service.py" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+		<summary>What you like to watch. SIMKL edition.[CR]</summary>
+		<description lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
+		<news>INFO: For latest changes see Changelog within add-on.</news>
+		<assets><icon>pov.png</icon><fanart>pov_fanart.png</fanart></assets>
+	</extension>
+</addon><addon id="repository.povsimkl" name="POV SIMKL Repository" version="1.0.0" provider-name="razaqad">
+    <extension point="xbmc.addon.repository" name="POV SIMKL Repository">
+        <dir minversion="20.0">
+            <info compressed="false">https://raw.githubusercontent.com/razaqad/kodi-repo/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/razaqad/kodi-repo/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/razaqad/kodi-repo/main/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>POV SIMKL Repository</summary>
+        <description lang="en">Personal repository hosting POV SIMKL, a fork of POV that uses SIMKL for watched-status tracking instead of Trakt.</description>
+    </extension>
+</addon></addons>
