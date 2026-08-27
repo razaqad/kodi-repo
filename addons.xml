@@ -168,4 +168,26 @@
 		<description lang="en_NZ">FENtastic is a modified version of the default Estuary skin for Kodi Nexus. It is intended for use only with FEN.[CR][CR]See [B]CHANGELOG[/B] located in Skin settings » Extra info for latest changes.</description>
 		<description lang="en_US">FENtastic is a modified version of the default Estuary skin for Kodi Nexus. It is intended for use only with FEN.[CR][CR]See [B]CHANGELOG[/B] located in Skin settings » Extra info for latest changes.</description>
 	</extension>
+</addon><addon id="script.kodi.logupload" name="Kodi Log Uploader" version="1.0.0" provider-name="razaqad">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Upload kodi.log to paste.kodi.tv and show the link</summary>
+        <description lang="en">Uploads the Kodi log to paste.kodi.tv and shows the resulting link so it can be shared when asking for help.
+
+Credentials are stripped before upload by default: tokens, API keys, passwords, Authorization headers and any user:pass embedded in a URL are replaced with &lt;redacted&gt;. A raw upload is offered separately for when the redaction itself is hiding the problem.
+
+Logs larger than the paste service accepts are trimmed to the most recent portion, which is the part that matters, and the paste says so at the top.
+
+No dependencies beyond Kodi itself, so it still works on a fresh profile when the add-on you are trying to debug will not start.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon></addons>
